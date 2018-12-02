@@ -92,3 +92,8 @@ ul.posts li {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+.tradingview-widget-container {
+    max-width: 960px; 
+    padding: 0; 
+    margin: 0 auto;
+ }
