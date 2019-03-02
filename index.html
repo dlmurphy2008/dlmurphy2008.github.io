@@ -90,6 +90,18 @@
 }
   </script>
 </div>
+			
+<div>
+	
+	function init() {
+ Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1ZjU3c_pzV8GgmoE4-uApBrKo_VOfUmLOBs3ZIETCWb8/pubhtml',
+ callback: function(data, tabletop) { 
+ console.log(data)
+ },
+ simpleSheet: true } )
+}
+	
+			</div>
 
 <h2>Quotes may be delayed. Information is provided 'as is' and solely for informational purposes, not for trading purposes or advice. </h2>		
 			</div><!-- /.blurb -->
@@ -105,13 +117,7 @@
 		</footer>
 	</body>
 
-function init() {
- Tabletop.init( { key: ‘https://docs.google.com/spreadsheets/d/1ZjU3c_pzV8GgmoE4-uApBrKo_VOfUmLOBs3ZIETCWb8/pubhtml',
- callback: function(data, tabletop) { 
- console.log(data)
- },
- simpleSheet: true } )
-}
+
 	
 			
 </html>
